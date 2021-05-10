@@ -1,0 +1,54 @@
+body{
+    background-color: #067b79;
+    color:#fff;
+}
+
+#counter{
+    color: rgb(31, 27, 27);
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    align-content: center;
+    
+
+}
+h1{
+    color: darksalmon;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    align-content: center;
+   
+    
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+    align-content: center;
+    border: greenyellow;
+  }
+
+
+  .clock-items button{
+    margin:0;
+    padding:0;
+    border-radius: 5px;;
+}
+  .counter-items{
+    width:10%;
+    border-radius: 60px;
+    text-align: center;
+    padding-top:400px;
+    padding-bottom: 400px;
+    font-size: 70px;
+    letter-spacing: 5px;
+    
+}
+
