@@ -1,4 +1,4 @@
-let counter = localStorage.getItem("counter") ?Number(localStorage.getItem("counter")) : 0
+let counter = localStorage.getItem("counter") ? Number(localStorage.getItem("counter")) : 0
 let counterDom = document.querySelector("#counter")
 let increaseDom = document.querySelector("#increase")
 let decreaseDom = document.querySelector("#decrease")
